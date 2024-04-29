@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    text-align: center;
+    margin-top: 360px;
+
+}
+.btn{
+    width: 80px;
+    border: 1px solid #3498db;
+    background: none;
+    color: #3498db;
+    font-size: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+    margin: 10px;
+    box-sizing: content-box;
+}
+
+.btn:hover{
+    color: #fff;
+    background: #043454;
+}
+.btn3:hover,.btn2:hover{
+    color: #fff;
+}
+a:visited{
+    color: purple;
+    background-color: rgb(120, 71, 11);
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: blue;
+    width: 80px;
+     
+    display: block;
+    box-shadow: 80px;
+    box-sizing: content-box;
+
+}
+a:hover{
+    color: dodgerblue;
+    background-color: aqua;
+    
+}
+a:active{
+    color: red;
+    background-color: #043454;
+}
